@@ -26,8 +26,18 @@ The 'uploadToGitRepo.py' does these things:
           -git commit (all)
           -adds the Angular project to the repository
           -after the processes have finished, the file deletes itself
+
+The 'generateComponent.py' does these things:
+
+          -asks for the component's name
+          -generates the component
+          -creates the component's .html file
+          -imports the component to 'the app.component.ts'
+          -adds the component's tag into the newly created .html file
+
 Usage of the files are recommended in this order:
 
           1. modifyAngularFiles.py (first steps)
           2. buildAngular.py (building the finished project)
           3. uploadToGithubRepo.py (adding the project to an existing Github repository)
+          4. generateComponent.py (generating a component by giving it a name, you don't have to import anything to anywhere)
