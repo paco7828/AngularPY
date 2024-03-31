@@ -19,6 +19,7 @@ The 'buildAngular.py' does these things:
           -asks for your project's name
           -builds the Angular project into the specified output path (change the code at line 10, value after '--output-path')
           -after done, the file deletes itself
+          -deletes the unnecessary python files
 The 'uploadToGitRepo.py' does these things:
 
           -asks for the Github repository's name where the Angular project will be uploaded
